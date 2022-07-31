@@ -1,0 +1,15 @@
+
+
+def count(text):
+    result = {}
+    for letter in text:
+        if letter not in result.keys():
+            result[letter]=0
+        result[letter] +=1
+
+    return result
+
+texto = "dasfjkldfaf asfasfsa dsafsadfdsaf"
+print(count(texto))
+
+ 
