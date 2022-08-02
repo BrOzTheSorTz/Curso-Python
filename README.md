@@ -2,6 +2,11 @@
 
 La tarea final fue crear una WordCloud.
 
+-Necesario:
+-pip install wordcloud
+-pip install fileupload
+-pip install ipywidgets
+
 En esta tarea me pedía que a partir de un texto que yo elijiese debía desglosarlo, es decir,
 eliminar de aquellas palabras que tenían signos de puntuación, estos últimos, y además eliminar
 aquellas palabra menos interesantes, es decir, las más típicas.
